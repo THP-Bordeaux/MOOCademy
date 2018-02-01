@@ -1,22 +1,18 @@
-# README
+# MOOCademy
 
-faire la cmd "rails db:migrate" avant d'ouvrir la console
-## MOOCademy
-- deux modèle créer : "Cour", "Lecon"
-* "Cour" a pour attribut "title"(string) et "description"(text)
-  "title" et "description" sont a renseigner obligatoirement
-* "Lecon" a pour attribut "title"(string) et "body"(text)
-  "title" et "body" sont a renseigner obligatoirement
+## Tests
 
+Pour lancer les tests :
+1. Cloner/télécharger le repo en local.
+2. Placer vous dans le dossier *the_hacking_news*.
+3. Lancer la commander rails test:models
 
-* faut obligatoirement créer "lecon" lui attribuer un "cour" avant de sauvegarder
+---
 
-## The Hacking pinterest
+Mode with <3 in Bordeaux - Pierrick, Arnold, Jérémy & Simon
 
-* User : has_many Pin, Comment
-
-* Pin : has_many Comment
-        belongs_to User
-
-* Comment : belongs_to Pin
-            belongs_to User
+Respectivement sur Slack :
+* @Pierrick
+* @domoya_arnold
+* @sabadie.jeremy
+* @simwyck
