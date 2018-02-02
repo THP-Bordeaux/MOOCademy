@@ -4,8 +4,9 @@
 
 Pour lancer les tests :
 1. Cloner/télécharger le repo en local.
-2. Placer vous dans le dossier *the_hacking_news*.
-3. Lancer la commander rails test:models
+2. Installer la gem Minitest => gem install minitest.
+3. Placer vous dans le dossier *MOOCademy*.
+4. Lancer la commander rails test:models
 
 ---
 
